@@ -1,0 +1,45 @@
+h1 {
+    color: #041250;
+    font-family:cursive
+}
+
+
+h1 {
+    text-align: center;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.chess-board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px;
+}
+
+.white {
+    background-color: #39a5f7;
+}
+
+.black {
+    background-color: #82d7e7;
+}
+
+.square {
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #080000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #030000;
+}
+
+  
